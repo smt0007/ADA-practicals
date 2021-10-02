@@ -70,7 +70,6 @@ public class MergeSort
         int[] array = {8, 18, 5, 11, 1, 2, 4, 52};
         System.out.println("Before sorting:");
         ms.printArray(array);
-        
         ms.mergeSort(array, 0, array.length - 1);
         System.out.println("After sorting:");
         ms.printArray(array);
